@@ -1,0 +1,42 @@
+body {
+    background-color: #8A4B08;
+}
+@font-face {
+    font-family: 'Esponja';
+    src: url(Krabby\ Patty.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+.historia {
+    font-size: x-large;
+    font-family: 'Esponja';
+    text-align: center;
+    color: #deb887;
+
+}
+a {
+    font-family: 'Esponja';
+    font-size: large;
+    color: red;
+}
+img.foto1 {
+    width: 230px;
+    height: 193px;
+}
+.texto{
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: #deb887;
+    text-align: center;
+}
+button{
+    background-color: black;
+    color: red;
+    width: 150px;
+    height: 50px;
+}
+img.foto2 {
+    width: 290px;
+    height: 163px;
+}

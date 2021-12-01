@@ -1,0 +1,48 @@
+body {
+background-color: #01DFD7;
+}
+.menu {
+
+}
+.menu > li{
+    float: left;
+    font-family: 'Esponja';
+    margin-left: 5px;
+    list-style: none;
+    height: 45px;
+    overflow: hidden;
+    transition: 2s;
+    -webkit-transition: 2s;
+    border:1px solid black;
+}
+.menu li a{
+    display: block;
+    width: 120px;
+    height: 60px;
+    text-decoration: none;
+    overflow: hidden;
+    background-color: #FFFF00;
+    text-align: center;
+    color: #8A4B08;
+    padding: 5px 5px 0px 5px;
+}
+.menu li ul li{
+    display: inline !important;
+}
+.menu li ul li a {
+    margin-left: -40px;
+    text-align: left;
+}
+.menu > li:hover{
+    height: 120px;
+}
+.menu li a:hover{
+    background-color: #F5A9F2;
+    color: #8000FF;
+}
+@font-face {
+    font-family: 'Esponja';
+    src: url(Krabby\ Patty.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
