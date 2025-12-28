@@ -1,1 +1,1 @@
-# lpddc
+# Página originalmente desarollada en Noviembre de 2021. Actualizada el 28 de diciembre de 2025.
